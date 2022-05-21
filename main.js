@@ -1,0 +1,1 @@
+document.querySelector("#matrix").addEventListener("click", () => window.location.pathname = "/matrix_computer/");

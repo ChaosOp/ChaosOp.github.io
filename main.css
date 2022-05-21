@@ -1,0 +1,39 @@
+:root {
+    --color: #FFFFFF;
+    --bg_color: #3e3e45;
+    --btn_color: #ffffff;
+    --btn_bg_color: #5c5c61;
+    --btn_dis_bg_color: #c6c6c6;
+    --input_color: #ffffff;
+    --input_bg_color: #414242;
+    --cbbox_color: #ffffff;
+    --cbbox_bg_color: #3d3838;
+}
+
+body {
+    background-color: var(--bg_color);
+    color: var(--color);
+}
+
+button {
+    color: var(--btn_color);
+    background-color: var(--btn_bg_color);
+    border-color: white;
+    cursor: pointer;
+    width: 33px;
+}
+
+button:disabled {
+    color: white;
+    background-color: var(--btn_dis_bg_color);
+    cursor: not-allowed;
+}
+
+
+button,
+select,
+input {
+    height: 30px;
+    border-radius: 10px;
+    outline: 0px;
+}
