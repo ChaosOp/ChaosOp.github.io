@@ -1,1 +1,1 @@
-document.querySelector("#cco").addEventListener("click", () => window.location.pathname = "/CCO-test/");
+document.querySelector("#cco").addEventListener("click", () => window.location.pathname = "/CCO_Test/");
