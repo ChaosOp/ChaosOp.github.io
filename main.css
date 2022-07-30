@@ -20,7 +20,7 @@ button {
     background-color: var(--btn_bg_color);
     border-color: white;
     cursor: pointer;
-    width: 33px;
+    width: auto;
 }
 
 button:disabled {

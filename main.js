@@ -1,1 +1,1 @@
-document.querySelector("#matrix").addEventListener("click", () => window.location.pathname = "/matrix_computer/");
+document.querySelector("#cco").addEventListener("click", () => window.location.pathname = "/CCO-test/");
